@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'trtn-rrr.github.io',
   plugins: [
     vue(),
   ],
